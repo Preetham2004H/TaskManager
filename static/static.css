@@ -1,0 +1,56 @@
+/* Apply a blend of purple, pink, and sky blue to the background of the card */
+.card{
+    background-color: #e8ade8;
+}
+/* Apply a blend of purple, pink, and sky blue to the headings */
+h4 {
+  color: #800080; /* Purple */
+  
+}
+
+/* Apply a blend of purple, pink, and sky blue to the buttons */
+.btn-primary {
+  background: linear-gradient(135deg,  #ffcccc, #87ceeb); /* Purple, Pink, Sky Blue gradient */
+  border-color: transparent; /* Hide the button border */
+  color: #000; /* White text on the gradient background */
+}
+
+.btn-primary:hover {
+  background: linear-gradient(135deg,  #ffcccc, #87ceeb); /* Lighter Orange to Pink to Sky Blue gradient on hover */
+}
+
+/* Apply a blend of purple, pink, and sky blue to the table headers */
+.table thead th {
+  background: linear-gradient(135deg,  #ffcccc); /* Purple, Pink, Sky Blue gradient */
+  color: #800080; /* White text on the gradient background */
+}
+
+/* Apply a blend of purple, pink, and sky blue to the table rows */
+.table tbody tr:nth-child(odd) {
+  background: linear-gradient(135deg,  #ffcccc, #87ceeb); /* Purple, Pink, Sky Blue gradient */
+}
+
+/* Apply a blend of purple, pink, and sky blue to the table cells */
+.table tbody td {
+  color: #0b0a0b; /* Purple */
+}
+.btn-pink {
+    background-color: #9467ba; /* Pink color */
+    color: #fff; /* White text color */
+  }
+  
+  .btn-purple {
+    background-color: #9467ba; /* Purple color */
+    color: #fff; /* White text color */
+  }
+
+
+
+.mks {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    max-width: 30px;
+  }
+  
+  
+  
